@@ -67,6 +67,15 @@ void LinearSearch()
     } while ((ch == 'y') || (ch == 'Y'));
 }
 
+void display()
+{
+    cout << "Array elemenys are: ";
+    for (i = 0; i < n; i++)
+        cout << arr[i] << "";
+    cout << endl;
+
+}
+
 int main()
 {
     std::cout << "Hello World!\n";
